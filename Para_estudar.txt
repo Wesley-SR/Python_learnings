@@ -1,0 +1,8 @@
+defaultdict work
+any() function python
+static methods
+self
+abstract class
+Difference between a set and a list
+class methods
+build-in function all()
