@@ -19,11 +19,11 @@ t2.start()
 t3.start()
 t4.start()
 
-# Já iniciou todos os t(i) e vai imprimir a string
+# You have already started all t (i) and will print the string
 print("Thread execution is complete! 1")
 
 t3.join()
 t4.join()
 
-# Essa string so sera impressa depois que o t(3) e t(4) for finalizado
+# This string will only be printed after t (3) and t (4) are finished
 print("Thread execution is complete! 2")

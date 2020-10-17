@@ -17,14 +17,14 @@ class DataCampThread(threading.Thread):
 
     def run(self):
         print('Starting Thread:', self.name)
-        thread_delay(self.name,self.delay) # Cada thread fica aqui ate terminar
+        thread_delay(self.name,self.delay) # Each thread stay here until she finish
         print('Execution of Thread:', self.name, 'is complete!')
 
 
 t1 = DataCampThread('t1', 1)
 t2 = DataCampThread('t2', 3)    
 
-t1.start() # Essa fucao execua o run()
+t1.start() # This function excute the run() function
 t2.start()
 
 t1.join()

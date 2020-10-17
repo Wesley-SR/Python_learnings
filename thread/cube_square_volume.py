@@ -7,8 +7,8 @@ def volume_cube(a):
 def volume_square(a):
     print("Volume of square: ", a*a)
 
-t1 = threading.Thread(target=volume_cube, args=(2,)) # A virgula e pq o arg espera um tupla
-
+# Uses a comma because the argument expects a tuple
+t1 = threading.Thread(target=volume_cube, args=(2,))
 t2 = threading.Thread(target=volume_square, args=(3,))
 
 t1.start()
