@@ -1,3 +1,8 @@
+'''
+Source:
+https://www.datacamp.com/community/tutorials/threading-in-python
+'''
+
 import _thread #thread module imported
 import time #time module
 

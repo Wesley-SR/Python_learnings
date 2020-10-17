@@ -1,3 +1,8 @@
+'''
+Source:
+https://www.datacamp.com/community/tutorials/threading-in-python
+'''
+
 import threading
 import time
 
