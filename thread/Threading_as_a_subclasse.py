@@ -6,6 +6,7 @@ https://www.datacamp.com/community/tutorials/threading-in-python
 import threading
 import time
 
+# This is function to perform mt tasks
 def thread_delay(thread_name, delay):
     count = 0
     while count < 5:
@@ -13,6 +14,7 @@ def thread_delay(thread_name, delay):
         count += 1
         print(thread_name, '-------->', time.time())
 
+# Create a subclass to run my function
 class DataCampThread(threading.Thread):
     def __init__(self, name, delay):
         threading.Thread.__init__(self)
