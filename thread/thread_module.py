@@ -17,3 +17,6 @@ _thread.start_new_thread
 
 t1 = _thread.start_new_thread(thread_delay, ('t1', 1))
 t2 = _thread.start_new_thread(thread_delay, ('t2', 3))
+
+t1.start()
+t2.start()

@@ -20,9 +20,21 @@ class Filha(Mae):
         print('Nome da filha:  ', nome_filha)
         print('O cpf da filha é:  ', cpf)
 
-nome_mae = 'Raquel'
-nome_filha = 'Adrielly'
+class HerdaDuas(Mae, Pai):
+    def __init__(self, nome_mae, nome_filha, idade_mae, cpf):
+        super().__init__(nome_mae, idade_mae)
+        print('Nome da filha:  ', nome_filha)
+        print('O cpf da filha é:  ', cpf)
+
+
+nome_mae = 'Maria'
+nome_filha = 'Jeorgia'
 idade_mae = 40
 cpf_filha = 123456789
 
-Filha(nome_mae, nome_filha, idade_mae, cpf_filha)
+nome_pai = 'Joao'
+idade_pai = 50
+
+primeira_filha = Filha(nome_mae, nome_filha, idade_mae, cpf_filha)
+
+segunda_filha = HerdaDuas(nome_mae, nome_filha, idade_mae, cpf_filha)
