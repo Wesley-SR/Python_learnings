@@ -1,3 +1,5 @@
+
+--- Prova Linkedin ---
 defaultdict work
 any() function python
 static methods
@@ -6,3 +8,12 @@ abstract class
 Difference between a set and a list
 class methods
 build-in function all()
+
+
+--- Para estudar ---
+Agendar scripts:
+	import schedule
+	schedule.every(10).seconds.do(Colocar_funcao_aqui)
+
+
+
