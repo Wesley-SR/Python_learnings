@@ -1,4 +1,5 @@
 # Olhar: https://www.youtube.com/watch?v=tX_v8dgb_7I
+# Essas sintax roda para python 3
 
 class Pai:
     def __init__(self, nome_pai, idade_pai, **kwargs):
@@ -29,8 +30,8 @@ class Filha(Pai, Mae):
 
         self.nome_filha = nf
         self.idade_filha = idf
-        # print('O nome do pai é:  ', self.nome_pai)
-        # print('O nome da mae é:  ', self.nome_mae)
+        # print('O nome do pai eh:  ', self.nome_pai)
+        # print('O nome da mae eh:  ', self.nome_mae)
         # print('Frase pai: ', self.frase_pai)
         # print('Frase mae: ', self.frase_mae)    
     

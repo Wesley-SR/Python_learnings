@@ -1,0 +1,15 @@
+{
+    "host": "192.168.0.64",
+    "port": "22",
+    "username": "root",
+    "password": "dragino",
+    "local_dragino_ID": "64000",
+    "periodic_msg_interval": "10",
+	
+	"server_host": "192.168.0.11",
+	"server_port": "64000",
+	
+	"return_flag": "False",
+	"save_dict_in_csv_flag": "False",
+	"run_periodic_msg_flag": "False"
+}
