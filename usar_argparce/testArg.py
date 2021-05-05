@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 
+"""
+    Comando para executar $  python3 testArg.py -l 10 -c 10
+    Obs.: Se executar em passar os parametros ou sem expecificar
+    vai dar erro.
+"""
+
 import argparse
 parser = argparse.ArgumentParser(description='Calcular a área de um terreno')
 
 # Adicionar os argumentos posicionais
-parser.add_argument('largura', type = int, help = 'Largura do terreno')
-parser.add_argument('comprimento', type = int, help = 'Comprimento do terreno')
+parser.add_argument('-l','--largura', type = int, help = 'Largura do terreno')
+parser.add_argument('-c','--comprimento', type = int, help = 'Comprimento do terreno')
 
 args = parser.parse_args()
 
